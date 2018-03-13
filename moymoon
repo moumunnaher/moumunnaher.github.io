@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>famous blogger</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 1500px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color:#CCFFFF;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #;
+      color: white;
+      padding: 80px;
+    }
+	body {
+		background:#FF99CC;
+		color:black;	
+		font-size:15px ;
+		font-family: 'Dancing Script', cursive;
+	}
+}
+  .carousel-control.right, .carousel-control.left {
+      background-image: none;
+      color: #f4511e;
+  }
+  .carousel-indicators li {
+      border-color: #f4511e;
+  }
+  .carousel-indicators li.active {
+      background-color: #f4511e;
+  }
+ 
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 80px;
+      }
+      .row.content {height: auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+      <h4>Malomoy's Blog</h4>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#section1">home sweet home</a></li>
+        <li><a href="https://mystory.me/" target="_blank">bffs</a></li>
+        <li><a href="https://mystory.me/" target="_blank">moments</a></li>
+        <li><a href="https://mystory.me/" target="_blank">momories</a></li>
+      </ul><br>
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search Blog..">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button">
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+        </span>
+      </div>
+    </div>
+
+    <div class="col-sm-9">
+      <h4><small></small>Updates</h4>
+      <hr>
+      <h2>I Love to explore the wold </h2>
+      <h5><span class="glyphicon glyphicon-time"></span> Post by moymun, nov 11, 2018.</h5>
+      <h5><span class="label label-danger">advanture</span> <span class="label label-primary">life story</span></h5><br>
+      <p>This explains the beginning of my life all the way to the end of my life. My life from the beginning was very fun as I grew up living with my mom's friend and my friend. But there were a lot of fights and I was very hyper back then. I have ADHD so back then when I was little; I was very hyper and wouldn't stop moving around the place. I always was annoying back then and never seemed to get my homework done at school.</p>
+      <br><br>
+      
+      <h4><small>Updates</small></h4>
+      <hr>
+      <h2>life has changed </h2>
+      <h5><span class="glyphicon glyphicon-time"></span> Post by moymun naher, jan 29, 2018 .</h5>
+      <h5><span class="label label-success">mo</span></h5><br>
+      <p>i was a quite girl. i love to play to with dool but someday i woke from sleep and seeing no body was there not even my parents, they left me alone in the darkness i wanted to be with them but i could not because they got their visa and i did not . i would love to have thwem back in life again. </p>
+      <hr>
+
+      <h4>Leave a constractive message :</h4>
+      <form role="form">
+        <div class="form-group">
+          <textarea class="form-control" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">click</button>
+      </form>
+      <br><br>
+      
+      <p><span class="badge">2</span> Comments and likes :</p><br>
+      
+      <div class="row">
+        <div class="col-sm-2 text-center">
+          <img src="https://static.esea.net/global/images/users/1826866.1504390176.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+        </div>
+        <div class="col-sm-10">
+          <h4>malo <small>jan 6, 2018, 3:50 PM</small></h4>
+          <p>aww your story is so good . i love it . i wish i would smack you on your on your face  and i dont like like you. </p>
+          <br>
+        </div>
+        <div class="col-sm-2 text-center">
+          <img src="http://3.bp.blogspot.com/-J8rq52ZsQWw/WNTMi7v9kNI/AAAAAAAAEQs/GVrAGaHbexgc-OA-b8u23nNa9DU12C5FACK4B/s1600/Sri%2BDivya%2Bprofile%2Bfamily%252C%2Bwiki%2BAge%252C%2BAffairs%252C%2BBiodata%252C%2BHeight%252C%2BWeight%252C%2BHusband%252C%2BBiography%2Bgo%2Bprofile1.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+        </div>
+        <div class="col-sm-10">
+          <h4>maliha <small> jan 3, 2018, 5:33 PM</small></h4>
+          <p>i love your blogs you insprie me so much . i would love ne part of your blog. love yaa. </p>
+          <br>
+          <p><span class="badge">1</span> Comment:</p><br>
+          <div class="row">
+            <div class="col-sm-2 text-center">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQracTdgrO2ys0Qu3eMTzdgPBcURWBfZNTdduALILYwQmQ9lY-uRg" class="img-circle" height="65" width="65" alt="Avatar">
+            </div>
+            <div class="col-xs-10">
+              <h4> azim  <small>jan 8, 2018, 6:28 PM</small></h4>
+              <p> yaa! very inspiring love yor. </p>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Container (Portfolio Section) -->
+<div id="portfolio" class="container-fluid text-center bg-grey"> 
+  <h2>What my fan say</h2>
+  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <h4>"her writing is the best, i love her stories!"<br><span>malo, student at harfort , Comment Box</span></h4>
+      </div>
+      <div class="item">
+        <h4>"yor the best"<br><span>jessie,student of jamica gateway </span></h4>
+      </div>
+      <div class="item">
+        <h4>"good luck in the future "<br><span>azim,student at jamaica gateway </span></h4>
+      </div>
+    </div>
+<footer class="container-fluid">
+  <p>Fav text</p>
+</footer>
+
+</body>
+</html>
+
