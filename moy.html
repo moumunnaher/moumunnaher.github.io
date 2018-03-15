@@ -65,12 +65,9 @@
         <li><a href="https://mystory.me/" target="_blank">momories</a></li>
       </ul><br>
       <div class="input-group">
-        <input type="text" class="form-control" placeholder="Search Blog..">
-        <span class="input-group-btn">
-          <button class="btn btn-default" type="button">
-            <span class="glyphicon glyphicon-search"></span>
-          </button>
-        </span>
+	<form>
+	<p>Highlight keywords as you type: <input id="keywords" size="24" placeholder="start typing"></p>
+	</form> 
       </div>
     </div>
 
@@ -160,7 +157,21 @@
 <footer class="container-fluid">
   <p>Fav text</p>
 </footer>
+	  
+<script type="text/javascript" src="/hilitor.js">
+</script>
 
+<script type="text/javascript">
+  var myHilitor;
+  document.addEventListener("DOMContentLoaded", function(e) {
+    myHilitor = new Hilitor2("playground");
+    myHilitor.setMatchType("left");
+  }, false);
+  document.getElementById("keywords").addEventListener("keyup", function(e) {
+    myHilitor.apply(this.value);
+  }, false);
+</script>
+	  
 </body>
 </html>
 
